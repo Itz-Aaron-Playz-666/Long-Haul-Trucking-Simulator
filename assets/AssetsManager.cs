@@ -5,7 +5,7 @@ using System.Text;
 
 public class SecureAssetManager
 {
-    private readonly string constantSha256Key = "YOUR_CONSTANT_SHA256_HASH";
+    private readonly string constantSha256Key = "02ae1416493aca228de18a808c9cflb345fef5136112df30ca58676f8e9e";
     private readonly string sessionSha512Key;
 
     public SecureAssetManager()
